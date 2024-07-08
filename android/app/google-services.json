@@ -1,0 +1,134 @@
+{
+  "project_info": {
+    "project_number": "219069524146",
+    "project_id": "museotrajebogota-c16bf",
+    "storage_bucket": "museotrajebogota-c16bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219069524146:android:927e22d31c84bb944e41ab",
+        "android_client_info": {
+          "package_name": "com.adminmuseo.adminmuseo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219069524146-v56ctrhas6vqi00q4le5vrbrq7lehi6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3djkKbYwIQdp59WlFlYy30EYOnETzbOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219069524146-v56ctrhas6vqi00q4le5vrbrq7lehi6s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "219069524146-2d3j9t4piv8fq564shu5pqaqaotffroo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.museotrajevisitante.museotrajevisitante"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219069524146:android:f1936be48cc9db1c4e41ab",
+        "android_client_info": {
+          "package_name": "com.museotrajevisitante.museotrajevisitante"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219069524146-ihf79n9bn380m6fqkpohcghgc5utfovt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.museotrajevisitante.museotrajevisitante",
+            "certificate_hash": "7401e6f1aaecb48dce24b27b974e552b5f923253"
+          }
+        },
+        {
+          "client_id": "219069524146-v56ctrhas6vqi00q4le5vrbrq7lehi6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3djkKbYwIQdp59WlFlYy30EYOnETzbOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219069524146-v56ctrhas6vqi00q4le5vrbrq7lehi6s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "219069524146-2d3j9t4piv8fq564shu5pqaqaotffroo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.museotrajevisitante.museotrajevisitante"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219069524146:android:1cac9874c7f9b8034e41ab",
+        "android_client_info": {
+          "package_name": "com.tesismuseotraje.tesismuseotraje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219069524146-rq3nml1gv7i25qfkf3s7uihn2kv9bdpp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tesismuseotraje.tesismuseotraje",
+            "certificate_hash": "7401e6f1aaecb48dce24b27b974e552b5f923253"
+          }
+        },
+        {
+          "client_id": "219069524146-v56ctrhas6vqi00q4le5vrbrq7lehi6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3djkKbYwIQdp59WlFlYy30EYOnETzbOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219069524146-v56ctrhas6vqi00q4le5vrbrq7lehi6s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "219069524146-2d3j9t4piv8fq564shu5pqaqaotffroo.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.museotrajevisitante.museotrajevisitante"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

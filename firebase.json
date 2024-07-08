@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "museotrajebogota-c16bf",
+          "appId": "1:219069524146:android:927e22d31c84bb944e41ab",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "museotrajebogota-c16bf",
+          "configurations": {
+            "android": "1:219069524146:android:927e22d31c84bb944e41ab",
+            "ios": "1:219069524146:ios:519c28eef7d051ad4e41ab",
+            "web": "1:219069524146:web:6f13e1a56f23e7424e41ab"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
