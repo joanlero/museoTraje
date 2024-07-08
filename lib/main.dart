@@ -20,8 +20,11 @@ void main() async {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
     );
+  } else {
+    await Firebase.initializeApp();
   }
-  SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
+  SystemChrome.setSystemUIOverlayStyle(
+      const SystemUiOverlayStyle(statusBarColor: Colors.transparent));
   runApp(
     ChangeNotifierProvider(
       create: (context) => AuthProvider(),
@@ -37,18 +40,25 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Sizer(
       builder: (context, orientation, deviceType) => MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Admin Museo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blue).copyWith(background: Colors.white),
+          colorScheme:
+          ColorScheme.fromSwatch(primarySwatch: Colors.blue).copyWith(
+            background: Colors.white,
+          ),
         ),
         home: LayoutScreen(),
         routes: {
           // Utiliza AuthGuard para proteger la ruta
-          ListarMuseoScreen.id: (context) => AuthGuard(child: ListarMuseoScreen()),
-          WebMainUpdateCardMuseo.idRoute: (context) => AuthGuard(child: WebMainUpdateCardMuseo()),
-          ListarEventoScreen.id: (context) => AuthGuard (child: ListarEventoScreen()),
-          ListarUsuarioScreen.id: (context) =>AuthGuard (child: ListarUsuarioScreen(),),
+          ListarMuseoScreen.id: (context) =>
+              AuthGuard(child: ListarMuseoScreen()),
+          WebMainUpdateCardMuseo.idRoute: (context) =>
+              AuthGuard(child: WebMainUpdateCardMuseo()),
+          ListarEventoScreen.id: (context) =>
+              AuthGuard(child: ListarEventoScreen()),
+          ListarUsuarioScreen.id: (context) =>
+              AuthGuard(child: ListarUsuarioScreen()),
           LoginScreen.id: (context) => LoginScreen(),
           // Otras rutas de la aplicación...
         },
