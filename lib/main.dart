@@ -1,18 +1,19 @@
 import 'package:adminmuseo/firebase_options.dart';
 import 'package:adminmuseo/layout_screen.dart';
-import 'package:adminmuseo/login/model/auth_guard.dart';
-import 'package:adminmuseo/login/model/auth_provider.dart';
-import 'package:adminmuseo/login/ui/screens/login_screen.dart';
-import 'package:adminmuseo/museo/eventos/ui/screens/dashboard/listar_evento_museo.dart';
-import 'package:adminmuseo/user/ui/screen/dashboard/listar_usuario.dart';
+import 'package:adminmuseo/museoTraje/eventos/vista/screens/dashboard/listar_evento_museo.dart';
+import 'package:adminmuseo/museoTraje/login/auth/auth_guard.dart';
+import 'package:adminmuseo/museoTraje/login/auth/auth_provider.dart';
+import 'package:adminmuseo/museoTraje/login/vista/screens/login_screen.dart';
+import 'package:adminmuseo/museoTraje/traje/vista/screens/dashboard/listar_traje_museo.dart';
+import 'package:adminmuseo/museoTraje/traje/vista/screens/dashboard/update_traje_museo.dart';
+import 'package:adminmuseo/museoTraje/user/vista/screen/dashboard/listar_usuario.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
-import 'museo/traje/ui/screens/dashboard/listar_card_museo.dart';
-import 'museo/traje/ui/screens/dashboard/update_card_museo.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
