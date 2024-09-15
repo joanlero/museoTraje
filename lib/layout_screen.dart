@@ -1,7 +1,8 @@
 
+import 'package:adminmuseo/universitaria/login/vista/screens/login_screen.dart';
 import 'package:flutter/material.dart';
 
-import 'museoTraje/login/vista/screens/login_screen.dart';
+
 
 
 class LayoutScreen extends StatelessWidget {

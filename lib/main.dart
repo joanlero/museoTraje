@@ -1,18 +1,22 @@
 import 'package:adminmuseo/firebase_options.dart';
 import 'package:adminmuseo/layout_screen.dart';
-import 'package:adminmuseo/museoTraje/eventos/vista/screens/dashboard/listar_evento_museo.dart';
-import 'package:adminmuseo/museoTraje/login/auth/auth_guard.dart';
-import 'package:adminmuseo/museoTraje/login/auth/auth_provider.dart';
-import 'package:adminmuseo/museoTraje/login/vista/screens/login_screen.dart';
-import 'package:adminmuseo/museoTraje/traje/vista/screens/dashboard/listar_traje_museo.dart';
-import 'package:adminmuseo/museoTraje/traje/vista/screens/dashboard/update_traje_museo.dart';
-import 'package:adminmuseo/museoTraje/user/vista/screen/dashboard/listar_usuario.dart';
+import 'package:adminmuseo/universitaria/login/auth/auth_guard.dart';
+import 'package:adminmuseo/universitaria/login/auth/auth_provider.dart';
+import 'package:adminmuseo/universitaria/tecnicas/vista/screens/dashboard/listar_tecnica.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
+
+import 'universitaria/circulares/vista/screens/dashboard/listar_circular.dart';
+import 'universitaria/circulares/vista/screens/dashboard/update_circular.dart';
+import 'universitaria/eventos/vista/screens/dashboard/listar_evento.dart';
+import 'universitaria/login/vista/screens/login_screen.dart';
+import 'universitaria/posgrado/vista/screens/dashboard/listar_posgrado.dart';
+import 'universitaria/pregrado/vista/screens/dashboard/listar_pregrado.dart';
+import 'universitaria/user/vista/screen/dashboard/listar_usuario.dart';
 
 
 void main() async {
@@ -52,12 +56,18 @@ class MyApp extends StatelessWidget {
         home: LayoutScreen(),
         routes: {
           // Utiliza AuthGuard para proteger la ruta
-          ListarMuseoScreen.id: (context) =>
-              AuthGuard(child: ListarMuseoScreen()),
-          WebMainUpdateCardMuseo.idRoute: (context) =>
-              AuthGuard(child: WebMainUpdateCardMuseo()),
+          ListarCircularScreen.id: (context) =>
+              AuthGuard(child: ListarCircularScreen()),
+          WebMainUpdateCircular.idRoute: (context) =>
+              AuthGuard(child: WebMainUpdateCircular()),
           ListarEventoScreen.id: (context) =>
               AuthGuard(child: ListarEventoScreen()),
+          ListarPosgradoScreen.id: (context) =>
+              AuthGuard(child: ListarPosgradoScreen()),
+          ListarPregradoScreen.id: (context) =>
+              AuthGuard(child: ListarPregradoScreen()),
+          ListarTecnicaScreen.id: (context) =>
+              AuthGuard(child: ListarTecnicaScreen()),
           ListarUsuarioScreen.id: (context) =>
               AuthGuard(child: ListarUsuarioScreen()),
           LoginScreen.id: (context) => LoginScreen(),
