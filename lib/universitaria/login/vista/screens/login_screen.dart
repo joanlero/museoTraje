@@ -105,7 +105,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         Padding(
                           padding: const EdgeInsets.all(8.0),
                           child: Image.asset(
-                            'assets/images/splash/logoUniversitaria.png',
+                            'assets/images/splash/logoUniversitariaNegro.png',
                             width: 30.w,
                             height: 15.h,
                           ),

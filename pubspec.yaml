@@ -119,6 +119,7 @@ flutter:
   assets:
     - assets/images/
     - assets/images/splash/logoUniversitaria.png
+    - assets/images/splash/logoUniversitariaNegro.png
 
 
 

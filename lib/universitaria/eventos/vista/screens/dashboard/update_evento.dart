@@ -147,7 +147,7 @@ class _WebMainUpdateEventoUniversitariaState extends State<WebMainUpdateEventoUn
           chooseScreens(item.route);
         },
         header: Container(
-          height: 50,
+          height: 120,
           width: double.infinity,
           color: const Color(0xFF03045e),
           child: Row(
@@ -156,8 +156,9 @@ class _WebMainUpdateEventoUniversitariaState extends State<WebMainUpdateEventoUn
               // Imagen (asegúrate de tener el archivo de imagen en tu proyecto)
               Image.asset(
                 'assets/images/splash/logoUniversitaria.png', // Ruta de tu imagen
-                height: 60, // Ajusta el tamaño según sea necesario
+                height: 120, // Ajusta el tamaño según sea necesario
               ),
+
             ],
           ),
         ),
